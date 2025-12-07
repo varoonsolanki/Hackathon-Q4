@@ -15,14 +15,14 @@ const config: Config = {
   },
 
   // Set the production url of your site here
-  url: 'https://github.com/varoonsolanki',
+  url: 'https://varoonsolanki.github.io',
   // Set the /<baseUrl>/ pathname under which your site is served
   // For GitHub pages deployment, it is often '/<projectName>/'
-  baseUrl: '/',
+  baseUrl: '/ai-book/',
 
   // GitHub pages deployment config.
   // If you aren't using GitHub pages, you don't need these.
-  organizationName: 'Muhammad-Shahzad', // Usually your GitHub org/user name.
+  organizationName: 'varoonsolanki', // Usually your GitHub org/user name.
   projectName: 'ai-book', // Usually your repo name.
 
   onBrokenLinks: 'throw',
@@ -46,7 +46,7 @@ const config: Config = {
           // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
           editUrl:
-            'https://github.com/shahzad006/Hackathon1_BOOK/tree/main/',
+            'https://github.com/varoonsolanki/Hackathon-Q4',
         },
         blog: false, // Turn off blog
         theme: {
@@ -76,7 +76,7 @@ const config: Config = {
           label: 'Book',
         },
         {
-          href: 'https://github.com/shahzad006/Hackathon1_BOOK',
+          href: 'https://github.com/varoonsolanki/Hackathon-Q4',
           label: 'GitHub',
           position: 'right',
         },
@@ -99,12 +99,12 @@ const config: Config = {
           items: [
             {
               label: 'GitHub',
-              href: 'https://github.com/shahzad006/Hackathon1_BOOK',
+              href: 'https://github.com/varoonsolanki/Hackathon-Q4',
             },
           ],
         },
       ],
-      copyright: `Copyright © ${new Date().getFullYear()} Muhammad Shahzad. Built with Docusaurus.`,
+      copyright: `Copyright © ${new Date().getFullYear()} Varoon Kumar. Built with Docusaurus.`,
     },
     prism: {
       theme: prismThemes.github,
